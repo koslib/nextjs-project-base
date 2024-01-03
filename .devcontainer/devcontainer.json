@@ -1,0 +1,11 @@
+{
+	"name": "nextjs-app",
+	"dockerComposeFile": ["../docker-compose.yaml"],
+	"service": "app",
+	"workspaceFolder": "/app",
+	"features": {
+	  "git": "os-provided"
+	},
+	"runServices": ["app"],
+	"shutdownAction": "stopCompose"
+  }
